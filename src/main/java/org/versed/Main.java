@@ -6,6 +6,7 @@ public class Main {
         GameSystem gameSystem = new GameSystem();
         User user = new User();
         user.enterName();
+        gameSystem.sign();
         gameSystem.play();
     }
 }

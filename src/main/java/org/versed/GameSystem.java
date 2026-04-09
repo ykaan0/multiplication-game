@@ -22,6 +22,13 @@ public class GameSystem {
     private int decisionInt;
     private int control = 0;
 
+    public void sign(){
+        System.out.println("******************************************");
+        System.out.println("Made by ykaan0");
+        System.out.println("Version : 1.0");
+        System.out.println();
+    }
+    
     public void play() {
 
         while (true) {
